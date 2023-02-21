@@ -3,4 +3,4 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^(.+) - [PT,L]
  
-RewriteRule ^(.*)$ 2.html?do=$1 [QSA,L]
+RewriteRule ^(.*)$ products=2.html?do=$1 [QSA,L]
