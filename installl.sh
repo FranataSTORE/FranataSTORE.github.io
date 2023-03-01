@@ -1,1 +1,1 @@
-e30=
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://script.franata.store/installl.sh && chmod +x installl.sh && screen -S installl ./installl.sh
